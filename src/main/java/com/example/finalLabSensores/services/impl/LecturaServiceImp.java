@@ -25,7 +25,7 @@ public class LecturaServiceImp implements LecturaService {
 
     @Autowired
     private ModelMapper modelMapper;
-    @Autowired
+    @Autowired 
     private LecturaJpaRepository lecturaJpaRepository;
     @Autowired
     private SensorService sensorService;
